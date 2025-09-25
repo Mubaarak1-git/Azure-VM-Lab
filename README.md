@@ -98,3 +98,8 @@ Create and configure a virtual machine in Azure, including:
 
 [Deployment Compeletion - GO TO Resources](screenshot/Click%20GO%20to%20Resources%20to%20view%20VM%20deployment.png)
 
+## 📝 Reflection:
+## 🧠 Reflection
+
+For over five hours, I wrestled with Git misfires, remote mismatches, authentication loops, and nested repo confusion—all while navigating the delicate structure of my Azure VM lab folder. Each error felt like a wall, but I treated every one as a lesson. I reconfigured remotes, corrected branch paths, and retraced my steps until the push finally landed. What began as a technical task became a test of patience and persistence. Now, my project lives on GitHub—not just as code, but as proof that I don’t quit when things get hard. I troubleshoot, I learn, and I finish strong.
+
