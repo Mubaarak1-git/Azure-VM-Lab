@@ -91,29 +91,65 @@ _Entered `vmadmin` as the administrator username for virtual machine `SRV01`, es
 
 ![Type vmadmin and press Enter - Adminitrator](screenshot/Adminitrator%20accoun-%20username%20fill%20with%20vmadmin%20%20VM%20Deployment.png)
 
-[VM Creation - Adminitrator](screenshot/Select%20inbound%20ports%20dropdown%20%20VM%20Deployment.png)
+### Step 16: Click Select inbound ports dropdown  
+_Opened the inbound ports dropdown during VM creation to configure public access rules such as RDP (port 3389) or HTTP (port 80). This step is key for enabling secure remote access or web traffic — perfect for setting up connectivity during deployment._
 
-[VM Creation - Inbound Port](screenshot/Inbound%20ports-%20select%20RDP(3389)%20%20VM%20Deployment.png)
+![Click Select inbound ports dropdown](screenshot/Select%20inbound%20ports%20dropdown%20%20VM%20Deployment.png)
 
-[Disk Attachment - Attach disk](screenshot/Disk-%20Click%20Next%20Disks%20%20VM%20Deployment.png)
+### Step 17: Select RDP (3389) inbound port  
+_Opened the inbound ports dropdown during VM creation and selected **RDP (3389)** to enable secure Remote Desktop access to the Windows virtual machine. This step is essential for remote administration — perfect for labs, testing, or production environments._
+
+![Select RDP (3389) inbound port  ](screenshot/Inbound%20ports-%20select%20RDP(3389)%20%20VM%20Deployment.png)
+
+### Step 18: Click Next: Disks  
+_Advanced to the **Disks** configuration tab during VM creation to define OS disk type, attach data disks, and set encryption options before deployment. This step transitions you into storage setup — perfect for customizing performance, redundancy, or backup strategy._
+
+[Click Next: Disks](screenshot/Disk-%20Click%20Next%20Disks%20%20VM%20Deployment.png)
+
+### Step 19: Click OS disk size dropdown  
+_Selected the OS disk size dropdown during VM creation to choose between **image default 127GiB**  balancing performance, cost, and redundancy. This step is key for tailoring disk performance to your workload — whether you're optimizing for speed or budget_
 
 [Disk Attachment - Disk OS](screenshot/OS%20disk%20size%20click%20dropdown%20%20VM%20Deployment.png)
 
-[Disk Attachment - Choose Default OS](screenshot/OS%20disk%20size%20click%20defualt%20%20%20VM%20Deployment.png)
+### Step 20: Select default OS disk size (127 GiB)  
+_Selected the default OS disk size of **127 GiB** during VM creation, which matches the base image size (Windows Server 2019 Datacenter). This disk accommodates the OS, system updates, and essential runtime dependencies. For workloads requiring additional storage, data disks can be attached separately._
 
-[Disk Attachment - Diskt type - Dropdown List](screenshot/OS%20disk%20type%20click%20dropdown%20VM%20Deployment.png)
+![Disk Attachment - Choose Default OS](screenshot/OS%20disk%20size%20click%20defualt%20%20%20VM%20Deployment.png)
 
-[Disk Attachment - Diskt type - Select Standard HDD](screenshot/OS%20disk%20type%20Select%20Standard%20HDD%20VM%20Deployment.png)
+### Step 21: Click OS disk type dropdown  
+_Selected the OS disk type dropdown during VM creation to choose between storage tiers like Premium SSD, Standard SSD, Standard HDD, or Ultra Disk — balancing performance, durability, and cost for the operating system volume._
 
-[Disk Attachment - Attachment Button ](screenshot/Click%20Create%20and%20attach%20a%20new%20disk%20VM%20deployment%20.png)
+![Disk Attachment - Diskt type - Dropdown List](screenshot/OS%20disk%20type%20click%20dropdown%20VM%20Deployment.png)
 
-[Disk Attachment - Diskt Name](screenshot/Name-%20Rename%20the%20data%20disk%20VM%20deployment%20.png)
+### Step 22: Select Standard HDD OS disk type  
+_Chosen “Standard HDD” as the OS disk type during VM creation to minimize cost. This tier offers reliable, low-cost storage ideal for light workloads, testing environments, or non-critical applications._
 
-[Disk Attachment - Disk Size](screenshot/Size%20change%20Data%20Disk%20Size%20VM%20Deployment%20.png)
+![Disk Attachment - Diskt type - Select Standard HDD](screenshot/OS%20disk%20type%20Select%20Standard%20HDD%20VM%20Deployment.png)
 
-[Disk Attachment - Disk Size](screenshot/Size%20Select%20storage%20type%20%20VM%20Deployment%20.png)
+### Step 23: Click Create and attach a new disk  
+_Selected the option to create and attach a new data disk during VM setup to expand storage capacity for application files, logs, or persistent datasets beyond the OS volume._
 
-[Disk Attachment - Storage Type](screenshot/Size%20change%20Storage%20type%20to%20Strandard%20HDD%20%20VM%20Deployment%20.png)
+![Disk Attachment - Attachment Button ](screenshot/Click%20Create%20and%20attach%20a%20new%20disk%20VM%20deployment%20.png)
+
+### Step 24: Type DatBo1 and press Enter  
+_Entered “DatBo1” as the disk name during creation to label and organize the new resource within the selected resource group. Naming conventions help ensure clarity across deployments and backups._
+
+![Disk Attachment - Diskt Name](screenshot/Name-%20Rename%20the%20data%20disk%20VM%20deployment%20.png)
+
+### Step 25: Click Change size  
+_Opened the disk size selector during new disk creation to adjust capacity based on workload needs. Selected **32 GiB** for Premium SSD — suitable for fast boot volumes, app binaries, or small databases._
+
+![Disk Attachment - Disk Size](screenshot/Size%20change%20Data%20Disk%20Size%20VM%20Deployment%20.png)
+
+### Step 26: Click Storage type dropdown  
+_Opened the storage type selector to compare disk tiers like Premium SSD, Standard SSD, and Ultra Disk. Each tier offers different IOPS, throughput, and burst capabilities tailored to workload performance needs._
+
+![Disk Attachment - Disk Size](screenshot/Size%20Select%20storage%20type%20%20VM%20Deployment%20.png)
+
+### Step 27: Select Standard HDD storage type  
+_Selected “Standard HDD” from the storage type dropdown during disk creation to prioritize cost-efficiency. This tier offers reliable, low-throughput storage ideal for infrequent access workloads like backups, logs, or archival data._
+
+![Disk Attachment - Storage Type](screenshot/Size%20change%20Storage%20type%20to%20Strandard%20HDD%20%20VM%20Deployment%20.png)
 
 [Disk Attachment - Disk Size](screenshot/Size%20a%20disk%20size%2032GiB%20VM%20deployment%20.png)
 
