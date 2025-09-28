@@ -104,12 +104,12 @@ _Opened the inbound ports dropdown during VM creation and selected **RDP (3389)*
 ### Step 18: Click Next: Disks  
 _Advanced to the **Disks** configuration tab during VM creation to define OS disk type, attach data disks, and set encryption options before deployment. This step transitions you into storage setup — perfect for customizing performance, redundancy, or backup strategy._
 
-[Click Next: Disks](screenshot/Disk-%20Click%20Next%20Disks%20%20VM%20Deployment.png)
+![Click Next: Disks](screenshot/Disk-%20Click%20Next%20Disks%20%20VM%20Deployment.png)
 
 ### Step 19: Click OS disk size dropdown  
 _Selected the OS disk size dropdown during VM creation to choose between **image default 127GiB**  balancing performance, cost, and redundancy. This step is key for tailoring disk performance to your workload — whether you're optimizing for speed or budget_
 
-[Disk Attachment - Disk OS](screenshot/OS%20disk%20size%20click%20dropdown%20%20VM%20Deployment.png)
+![Disk Attachment - Disk OS](screenshot/OS%20disk%20size%20click%20dropdown%20%20VM%20Deployment.png)
 
 ### Step 20: Select default OS disk size (127 GiB)  
 _Selected the default OS disk size of **127 GiB** during VM creation, which matches the base image size (Windows Server 2019 Datacenter). This disk accommodates the OS, system updates, and essential runtime dependencies. For workloads requiring additional storage, data disks can be attached separately._
