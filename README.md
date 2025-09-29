@@ -151,40 +151,68 @@ _Selected “Standard HDD” from the storage type dropdown during disk creation
 
 ![Disk Attachment - Storage Type](screenshot/Size%20change%20Storage%20type%20to%20Strandard%20HDD%20%20VM%20Deployment%20.png)
 
-[Disk Attachment - Disk Size](screenshot/Size%20a%20disk%20size%2032GiB%20VM%20deployment%20.png)
+### Step 28: Click P4 disk size  
+_Selected the **P4** disk tier with 32 GiB capacity under Premium SSD (LRS). This option provides balanced performance with 120 IOPS and 25 MBps throughput — suitable for lightweight workloads or boot volumes._
 
-[Disk Attachment - Disk Deletion Checkbox](screenshot/Delete%20click%20Delete%20disk%20with%20VM%20checkbox%20VM%20deployment.png)
+![Click P4 disk size](screenshot/Size%20a%20disk%20size%2032GiB%20VM%20deployment%20.png)
 
-[Disk Attachment - Compeletion](screenshot/Click%20OK%20new%20Disk%20tab%20VM%20deployment%20.png)
+### Step 29: Click Delete disk with VM checkbox  
+_Checked the “Delete disk with VM” box to ensure the disk named **Data01** is automatically removed when the virtual machine is deleted. This helps prevent orphaned resources and unnecessary storage costs._
 
-[Network Configuration - Network Tab](screenshot/Click%20Next%20Networking%20tab.png)
+![Disk Attachment - Disk Deletion Checkbox](screenshot/Delete%20click%20Delete%20disk%20with%20VM%20checkbox%20VM%20deployment.png)
 
-[Network Configuration - Virtual Network - Dropdown List ](screenshot/Virtual%20Network%20click%20dorpdown%20VM%20deployment.png)
+### Step 30: Click OK  
+_Confirmed the creation of a new 32 GiB Premium SSD disk named **Data01** by clicking the **OK** button. This action finalizes disk settings including encryption, resource group, and source type, preparing it for attachment to a VM._
 
-[Network Configuration - Network vNeetprod](screenshot/Virtual%20Network%20select%20vNetprod%20VM%20deployment.png)
+![Disk Attachment - Compeletion](screenshot/Click%20OK%20new%20Disk%20tab%20VM%20deployment%20.png)
 
-[Network Configuration - Subnet](screenshot/Subnet%20click%20dropdown%20VM%20deployment%20.png)
+### Step 31: Click Next: Networking  
+_Advanced to the **Networking** tab in the VM creation wizard to configure virtual network, subnet, public IP, and network security group settings. This step transitions from basic VM setup to defining connectivity and access controls._
 
-[Network Configuration - Subnet DEFUALT SUBNET](screenshot/Subnet%20select%20default%20subnet%20VM%20deployment%20.png)
+![Network Configuration - Network Tab](screenshot/Click%20Next%20Networking%20tab.png)
 
-[Network Configuration - Deletion IP & NIC Checkbox](screenshot/Delete%20click%20Delete%20public%20IP%20and%20NIC%20with%20VM%20checkbox%20VM%20deployment.png)
+### Step 32: Click Next: Monitoring  
+_Advanced to the **Monitoring** tab in the VM creation wizard after configuring management options like boot diagnostics, identity, Defender for Cloud, and backup. The next blade focuses on telemetry, metrics, and logging setup for operational visibility._
 
-[Skipping Tabs - Management Tab as Defualt](screenshot/Click%20Next%20Management%20tab.png)
+![Click Next: Monitoring ](screenshot/Click%20Next%20Monitoring%20tab.png)
 
-[Skipping Tabs - Monitoring Tab as Defualt](screenshot/Click%20Next%20Monitoring%20tab.png)
+### Step 33: Click Next: Advanced  
+_Proceeded to the **Advanced** tab in the VM creation wizard after configuring monitoring options like boot diagnostics and guest-level telemetry. The next blade allows fine-tuning of extensions, custom scripts, and host-level settings._
 
-[Skipping Tabs - Advanced Tab as Defualt](screenshot/Click%20Next%20Advanced%20tab.png)
+![Click Next: Advanced](screenshot/Click%20Next%20Advanced%20tab.png)
 
-[Skipping Tabs - Tags Tab as Defualt](screenshot/Click%20Next%20Tags%20%20tab.png)
+### Step 34: Click Next: Tags  
+_Advanced to the **Tags** tab in the VM creation wizard after configuring advanced options like host group, capacity reservation, and proximity placement. The next blade enables metadata tagging for resource organization, cost tracking, and automation._
 
-[Review Settings - Chekck Configured settings](screenshot/Review%20settings%20VM%20deployment%20.png)
+![Click Next: Tags](screenshot/Click%20Next%20Tags%20%20tab.png)
 
-[Deploy VM - Begin Deployment](screenshot/Click%20Create%20to%20begin%20Deployment%20%20VM%20deployment%20.png)
+### Step 35: Click Next: Review + create  
+_Advanced to the **Review + create** tab in the VM creation wizard after assigning tags for resource organization. This final blade summarizes all configuration choices before deployment — including image, size, networking, disks, and estimated cost._
 
-[Deployment Compeletion - GO TO Resources](screenshot/Click%20GO%20to%20Resources%20to%20view%20VM%20deployment.png)
+![Click Next: Review + create](screenshot/Click%20Next%20Review%20+%20create%20tab%20.png)
+
+### Step 36: Click here to scroll down  
+_Scrolled down the VM creation blade to access additional configuration options such as disks, networking, management, and monitoring. This ensures all setup parameters are reviewed before deployment._
+
+![Review Settings - Click here to scroll down](screenshot/Review%20settings%20VM%20deployment%20.png)
+
+### Step 37: Click Create  
+_Selected the **Create** button to deploy the virtual machine with validated configuration. This action provisions the VM using the selected image, size, network, and management settings — initiating resource allocation and startup._
+
+![Click Create](screenshot/Click%20Create%20to%20begin%20Deployment%20%20VM%20deployment%20.png)
+
+### ✅ Final Step: Click Go to resource  
+_Selected the “Go to resource” button after the successful deployment of **WindowsServer-201-2409172304371**. This marks the end of a long, deliberate journey — from subnetting and tagging to disk provisioning and diagnostics — each step taken with clarity, patience, and purpose._
+
+By clicking this, I now enter the VM’s overview blade — the control center where I’ll monitor performance, configure networking, and begin real workload setup.  
+This isn’t just a resource. It’s the reflection of every deliberate choice, every quiet breakthrough, and every moment I refused to rush what mattered.
+
+_Thank you for walking this path with me. The lab is complete — but the learning continues. Onward._
+
+![Click Go to resource](screenshot/Click%20GO%20to%20Resources%20to%20view%20VM%20deployment.png)
 
 ## 📝 Reflection:
 
 
-For over five hours, I wrestled with Git misfires, remote mismatches, authentication loops, and nested repo confusion—all while navigating the delicate structure of my Azure VM lab folder. Each error felt like a wall, but I treated every one as a lesson. I reconfigured remotes, corrected branch paths, and retraced my steps until the push finally landed. What began as a technical task became a test of patience and persistence. Now, my project lives on GitHub—not just as code, but as proof that I don’t quit when things get hard. I troubleshoot, I learn, and I finish strong.
+For hours, I wrestled with Git misfires, remote mismatches, authentication loops, and nested repo confusion—all while navigating the delicate structure of my Azure VM lab folder. Each error felt like a wall, but I treated every one as a lesson. I reconfigured remotes, corrected branch paths, and retraced my steps until the push finally landed. What began as a technical task became a test of patience and persistence. Now, my project lives on GitHub—not just as code, but as proof that I don’t quit when things get hard. I troubleshoot, I learn, and I finish strong.
 
